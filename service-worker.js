@@ -53,7 +53,7 @@ self.addEventListener('fetch', event => {
 
 // PUSH NOTIFICATIONS
 self.addEventListener('push', event => {
-  const data = event.data?.json() || { title: 'LionWeb - Deploy to GitHub Pages', body: 'New notification' };
+  const data = event.data?.json() || { title: 'lionweb---deploy-to-github-pages', body: 'New notification' };
   event.waitUntil(
     self.registration.showNotification(data.title, {
       body: data.body,
