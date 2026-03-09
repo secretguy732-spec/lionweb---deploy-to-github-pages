@@ -1,7 +1,7 @@
 {
-  "name": "LionWeb - Deploy to GitHub Pages",
-  "short_name": "LionWeb",
-  "description": "A progressive web app",
+  "name": "lionweb---deploy-to-github-pages",
+  "short_name": "lionweb---deploy-to-github-pages",
+  "description": "A PWA app",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
